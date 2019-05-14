@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_note_categoria"
+        android:text="CATEGORIA"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FAD006" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_note_title"
+        android:text="TITLE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#009688" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_note_date"
+        android:text="dd/MM/yyyy"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#e74d8a" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_note_content"
+        android:text="EXEMPLO DE RESUMO!"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+</LinearLayout>

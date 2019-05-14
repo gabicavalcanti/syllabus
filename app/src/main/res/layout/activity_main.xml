@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="match_parent"
+tools:context="com.example.adroit.myapplication.MainActivity"
+android:weightSum="1"
+android:background="@android:color/background_light"
+android:id="@+id/linearLayout">
+
+
+<ImageView
+    android:layout_width="414dp"
+    android:layout_height="258dp"
+    android:id="@+id/imageView"
+    android:src="@drawable/app2"
+    android:contentDescription=""
+    android:layout_weight="0.04"
+    android:layout_gravity="bottom"
+    android:onClick="irParaResumo"/>
+
+<Button
+    android:layout_width="276dp"
+    android:layout_height="wrap_content"
+    android:text="LEMBRETES"
+    android:id="@+id/lbutton"
+    android:layout_weight="0.04"
+    android:layout_gravity="center_horizontal"
+    style="@style/Base.Animation.AppCompat.DropDownUp"
+    android:background="#FAD006"
+    android:clickable="true"
+    android:fontFamily="@string/abc_font_family_title_material"
+    android:textColor="@color/abc_btn_colored_text_material"
+    android:onClick="irParaLembretes"/>
+
+<Button
+    style="@style/Base.Animation.AppCompat.DropDownUp"
+    android:layout_width="277dp"
+    android:layout_height="wrap_content"
+    android:text="RESUMOS"
+    android:id="@+id/rbutton"
+    android:layout_weight="0.04"
+    android:background="#E74D8A"
+    android:clickable="true"
+    android:fontFamily="@string/abc_font_family_title_material"
+    android:textColor="@color/abc_btn_colored_text_material"
+    android:layout_gravity="center"
+    android:layout_marginTop="30dp"
+    android:onClick="irParaResumo" />
+</LinearLayout>
