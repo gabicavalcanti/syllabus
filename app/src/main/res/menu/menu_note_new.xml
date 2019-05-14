@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- SALVA NOVO RESUMO -->
+    <item
+        android:enabled="true"
+        android:title="save"
+        android:id="@+id/action_note_save"
+        android:icon="@drawable/save"
+        android:orderInCategory="0"
+        app:showAsAction="always" />
+
+    <item
+        android:enabled="true"
+        android:title="delete"
+        android:id="@+id/action_note_delete"
+        android:icon="@drawable/wastebin"
+        android:orderInCategory="0"
+        app:showAsAction="always" />
+
+
+</menu>
